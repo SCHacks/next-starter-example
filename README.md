@@ -1,6 +1,5 @@
-# Next.js starter
+# Next.js starter example project
 
-This project is a starter for using [Next.js](https://nextjs.org) for use at
-State College Area High School.
+This project is the example for the [Next.js workshop](https://nextjs.org) on Hack Club.
 
 MIT License

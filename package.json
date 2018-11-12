@@ -1,7 +1,7 @@
 {
   "name": "schacks-next",
   "version": "0.0.1",
-  "description": "A starter for Next.js.",
+  "description": "A demo of the Hack Club Next.js starter workshop.",
   "scripts": {
     "start": "next"
   },

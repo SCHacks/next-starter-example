@@ -35,7 +35,7 @@ class List extends Component {
             padding-bottom: 0.25em;
             border: 1px solid #eee;
             box-sizing: border-box;
-            margin: 1em;
+            margin: 1em 1em 1em 0;
             vertical-align: baseline;
             font-size: inherit;
             font-family: inherit;
@@ -45,6 +45,8 @@ class List extends Component {
             -webkit-appearance: none;
           }
           button { cursor: pointer; }
+          ul { list-style: none; padding: 0; }
+          li { padding: 1em 0; border-top: 1px solid #eee; }
         `}</style>
       </>
     )
