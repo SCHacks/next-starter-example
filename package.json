@@ -1,0 +1,17 @@
+{
+  "name": "schacks-next",
+  "version": "0.0.1",
+  "description": "A starter for Next.js.",
+  "scripts": {
+    "start": "next"
+  },
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1"
+  },
+  "repository": {
+    "url": "https://github.com/schacks/next-starter-example"
+  },
+  "license": "MIT"
+}
