@@ -1,16 +1,25 @@
-import React, { Component } from 'react'
-
 export default () => (
-  <div>
-    <h1>Hello!</h1>
-    <p>This is my React site.</p>
+  <main>
+    <link rel="stylesheet" href="https://unpkg.com/type-system" />
+    <h1 className="h1 mt0 mb0">Hello!</h1>
+    <p className="h3 mt1">This is my Next.js-powered React site.</p>
     <img src="https://cdn.glitch.com/07c030d0-d34c-4801-8693-1aeb85439881%2Fimage.jpg?1541992386787" />
-    <List />
+
     <style jsx>{`
-      h1 {
-        color: blue;
+      main {
+        margin: 1rem;
       }
-      img { max-width: 100%; }
+
+      h1 {
+        color: #ec3750;
+        font-style: italic;
+        font-weight: 900;
+      }
+
+      img {
+        max-width: 100%;
+        border-radius: 8px;
+      }
     `}</style>
-  </div>
+  </main>
 )

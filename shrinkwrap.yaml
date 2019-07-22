@@ -1,7 +1,7 @@
 dependencies:
   next: 9.0.2
   react: 16.8.6
-  react-dom: 16.6.1
+  react-dom: 16.8.6
 packages:
   /@babel/code-frame/7.5.5:
     dependencies:
@@ -3434,13 +3434,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-K+Tk3Kd9V0odiXFP9fwDHUYRyvK3Nun3GVyPapSIs5OBkITAm15W0CPFD/YKTkMUAbc0b9CUwRQp2ybiBIq+eA==
-  /prop-types/15.6.2:
-    dependencies:
-      loose-envify: 1.4.0
-      object-assign: 4.1.1
-    dev: false
-    resolution:
-      integrity: sha512-3pboPvLiWD7dkI3qf3KbUe6hKFKa52w+AE0VCqECtf+QHAKgOL37tTaNCnuX1nAAQ4ZhyP+kYVKf8rLmJ/feDQ==
   /prop-types/15.7.2:
     dependencies:
       loose-envify: 1.4.0
@@ -3542,17 +3535,17 @@ packages:
       node: '>= 0.8'
     resolution:
       integrity: sha512-4Oz8DUIwdvoa5qMJelxipzi/iJIi40O5cGV1wNYp5hvZP8ZN0T+jiNkL0QepXs+EsQ9XJ8ipEDoiH70ySUJP3Q==
-  /react-dom/16.6.1:
+  /react-dom/16.8.6:
     dependencies:
       loose-envify: 1.4.0
       object-assign: 4.1.1
-      prop-types: 15.6.2
-      scheduler: 0.11.0
+      prop-types: 15.7.2
+      scheduler: 0.13.6
     dev: false
     peerDependencies:
       react: ^16.0.0
     resolution:
-      integrity: sha512-zm+wBuEMGm009Wt1uE4Zw5KcXOW7qC4E/xW/fpJsCsbOco4U/R84u+DzzO/S4SYSdNBcqcaulcp4w3FXl8pImw==
+      integrity: sha512-1nL7PIq9LTL3fthPqwkvr2zY7phIPjYrT0jp4HjyEQrEROnw4dG41VVwi/wfoCneoleqrNX7iAD+pXebJZwrwA==
   /react-error-overlay/5.1.6:
     dev: false
     resolution:
@@ -3742,13 +3735,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
-  /scheduler/0.11.0:
-    dependencies:
-      loose-envify: 1.4.0
-      object-assign: 4.1.1
-    dev: false
-    resolution:
-      integrity: sha512-MAYbBfmiEHxF0W+c4CxMpEqMYK+rYF584VP/qMKSiHM6lTkBKKYOJaDiSILpJHla6hBOsVd6GucPL46o2Uq3sg==
   /scheduler/0.13.6:
     dependencies:
       loose-envify: 1.4.0
@@ -4481,4 +4467,4 @@ shrinkwrapVersion: 3
 specifiers:
   next: ^9.0.2
   react: ^16.8.6
-  react-dom: ^16.6.1
+  react-dom: ^16.8.6
