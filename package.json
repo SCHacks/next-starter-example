@@ -1,17 +1,17 @@
 {
   "name": "schacks-next",
   "version": "0.0.1",
-  "description": "A demo of the Hack Club Next.js starter workshop.",
+  "description": "A starter for Next.js.",
   "scripts": {
     "start": "next"
   },
   "dependencies": {
-    "next": "^7.0.2",
-    "react": "^16.6.1",
-    "react-dom": "^16.6.1"
+    "next": "^9.0.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "repository": {
-    "url": "https://github.com/schacks/next-starter-example"
+    "url": "https://github.com/schacks/next-starter"
   },
   "license": "MIT"
 }
